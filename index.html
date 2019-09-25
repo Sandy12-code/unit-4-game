@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <!-- Bootstrap core CSS -->
@@ -48,10 +49,10 @@
         <div class="crystalpoints row">
             <div class="col-12">
                 <div id="crystalfield">
-                    <img src="assets/images/crystal-1.jpeg"  id="crystal1">
-                    <img src="assets/images/crystal-2.jpeg"  id="crystal2">
-                    <img src="assets/images/crystal-3.jpeg"  id="crystal3">
-                    <img src="assets/images/crystal-4.jpeg"  id="crystal4">
+                    <img src="assets/images/crystal-1.jpeg" id="crystal1">
+                    <img src="assets/images/crystal-2.jpeg" id="crystal2">
+                    <img src="assets/images/crystal-3.jpeg" id="crystal3">
+                    <img src="assets/images/crystal-4.jpeg" id="crystal4">
                 </div>
             </div>
         </div>
@@ -64,7 +65,7 @@
 
         <div class="scoreresults row">
             <div class="col-4" id=resultsbox>
-                 <p id="finalscore"> results: <span id="display-results"></span></p>
+                <p id="finalscore"> results: <span id="display-results"></span></p>
 
             </div>
         </div>
@@ -80,26 +81,3 @@
 <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </html>
-
-
-<!---
-    // WHEN PAGE LOADS:
-    // TODO: generate random number
-    // TODO: generate random numbers for the gems [15,22,8,11]
-    // TODO: set wins and losses to 0 when page loads
-    // TODO: set user score to 0 when page loads
-
-    // TODO: create Jquery click event for gem click
-       // add gem number to user score
-       // check user score vs random number
-          // if user score > random number, player loses
-          // if user score = random number, player wins
-
-    function generateRandomNumber(min, max);
-    $(".gem").on('click', function(){
-        var thisGemNumber = $(this).val();
-        var thisGemPoints = geNumbers[thisGemNumber-1];
-        userPoints = userPoints + thisGemPoints;
-    });
-
--->
