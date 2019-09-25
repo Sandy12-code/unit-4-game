@@ -1,138 +1,60 @@
-
-main-box {
-    position: static;
-    border: 3px solid black;
+body {
+    background-color: rgb(208, 212, 218);
 }
-
-.parent-box{
-    box-sizing: border-box;
-    width: 50%;
-    height: 100%;
-    /* border: 3px solid black; */
-    border-left: 1px solid black;
-    border-right: 1px solid black;
-    margin-bottom: 20px;
-    background-image: linear-gradient();
-   
-
-      }
-    
-  
-
-  header {
-      float: left;
-      padding: 10px;
-      margin-bottom: 10px;
-      margin-top: 10px;
-      color: white;
-      background: brown
-  }
-
-  #box-1 {
-      float: left;
-      width: 25%;
-      height: 10%;
-      background-color: bisque;
-      padding: 5px;
-      margin-bottom: 10px;
-      margin-top: 12%;
-      margin-right: 60px;
-
-  }
-
-  #box-2 {
-      float: left;
-      padding: 10px;
-      width: 10%;
-      height: 10%;
-      background: rgb(0, 128, 53);
-      text-align: left;
-      color:black;
-      margin-bottom: 10px;
-      margin-top: 60%;
-      margin-right: 10px;
-      
-  }
-
-  #box-3 {
-    float: left;
-    padding: 10px;
-    width: 5%;
-    height: 4%;
-    background: rgb(35, 123, 126);
+.container {
+    background-color: rgba(255, 68, 0, 0.26);
+    color: white;
     text-align: left;
-    color:black;
-    margin-bottom: 10px;
-    margin-top: 60%; 
+    font-family: "Mountains of Christmas", cursive;
+    border: 1px solid black;
+    margin-top: 20px;
 }
 
- #box-4 {
-    float: left;
-    width: 3%;
-    height: 3%;
+.instruction-block {
+    background-color: rgb(231, 224, 222);
+    color:rgb(43, 139, 43);
+    text-align: left;
+    border: 1px solid gray;
+}
+
+
+.generator {
+    background-color: rgb(33, 156, 33);
+    color: black;
+    border: 1px solid gray;
+}
+
+
+#stats {
+    background-color: rgb(0, 128, 117);
+    color: black;
+    text-align: left;
+    border: 1px solid gray;
+}
+
+#wins {
+    text-align: left;
+}
+#loses {
+    text-align: left;
+}
+
+
+#crystalone, #crystaltwo, #crystalthree, #crystalfour {
+    padding: 5px;
     background: white;
-    margin-bottom: 10px;
-    margin-top: 75%; 
-    padding: 10px;
+    border: 1px solid gray;
+}
 
- }
+.totalscore {
+    background: rgb(0, 128, 96);
+    border: 1px solid gray;
+}
 
- #box-5 {
-    float: left;
-    width: 3%;
-    height: 3%;
-    background: white;
-    margin-bottom: 10px;
-    margin-top: 75%; 
-    padding: 10px;
+.scoreresults {
+    background: rgb(0, 128, 96);
+    color: white;
+    border: 1px solid gray;
 
- }
-
- #box-6 {
-    float: left;
-    width: 3%;
-    height: 3%;
-    background: white;
-    margin-bottom: 10px;
-    margin-top: 75%; 
-    padding: 10px;
-
- }
-
- #box-7 {
-    float: left;
-    width: 3%;
-    height: 3%;
-    background: white;
-    margin-bottom: 10px;
-    margin-top: 75%; 
-    padding: 10px;
-
- }
-
- #box-8 {
-     float: left;
-     width: 10%;
-     height: 10px;
-     background: rgb(0, 128, 96);
-     color: white;
-     margin-bottom: 0px;
-     margin-top: 78%; 
-     padding: 10px;
-
- }
-
- #box-9 {
-     float: left;
-     width: 15%;
-     height: 5%;
-     background: rgb(0, 128, 96);
-     color: white;
-     margin-bottom: 0px;
-     margin-top: 95%; 
-     padding: 50px;
-
-
- }
-
- 
+   
+}
