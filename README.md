@@ -26,6 +26,6 @@
 * create winning game function
 * create lossing game function
 * create crystal funtion
-* create Jquery click event for gem click
+* create Jquery click event for crystal click
 * add crystal number to user score
 * check user score vs random number
