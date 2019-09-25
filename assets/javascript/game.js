@@ -5,7 +5,7 @@ $(document).ready(function () {
     var winCount = 0;
     var lossCount = 0;
     var userScore = 0
-    var randomNumber = Math.floor(Math.random() * 120) + 19;
+    var randomNumber = Math.floor(Math.random() * 120-19) + 19;
     var crystal1 = Math.floor(Math.random() * 12) + 1;
     var crystal2 = Math.floor(Math.random() * 12) + 1;
     var crystal3 = Math.floor(Math.random() * 12) + 1;
@@ -89,7 +89,7 @@ $(document).ready(function () {
 
     var reset = function () {
         userScore = 0;
-        randomNumber = Math.floor(Math.random() * 120) + 19;
+        randomNumber = Math.floor(Math.random() * 120-19) + 19;
         crystal1= Math.floor(Math.random()*12)+1;
         crystal2= Math.floor(Math.random()*12)+1;
         crystal3= Math.floor(Math.random()*12)+1;
