@@ -1,4 +1,4 @@
-# unit-4-game
+# Crystal Collector
 
 
 
@@ -27,7 +27,7 @@
 
 * The app should show the number of games the player wins and loses. To that end, do not refresh the page as a means to restart the game.
 
-## Htlm File
+## HTML File
 
 * Add Bootstrap core CSS 
 * Link Html file to Personal CSS
@@ -35,7 +35,7 @@
 * Inside the container, create several boxes with rows and cols 
 * Attach javaScript files needed by Bootsrap at the end of the Html file.
 
-## SCC
+## CSS
 
 * Style all the boxes created in your html file
 
